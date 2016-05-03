@@ -1,0 +1,35 @@
+body {
+    /*background: url(../img/background.jpg) fixed;
+    background-size: 170%;*/
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+.navigation-bar{
+    position: static;
+    font-family:'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+.postal-code {
+    border-radius: 0px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    height: 38px;
+}
+
+input[type=text] {
+    text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    text-transform: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.container {
+    padding: 10px;
+}
