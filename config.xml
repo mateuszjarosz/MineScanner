@@ -28,6 +28,7 @@
         <allow-intent href="itms-apps:*"/>
 
         <splash src="resources/screen/ios/Default-736h.png" width="1242" height="2208"/>
+        <preference name="SplashScreenDelay" value="1000" />
 
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#6dac6e" />
